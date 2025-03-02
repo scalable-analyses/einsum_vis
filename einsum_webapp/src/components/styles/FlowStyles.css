@@ -1,0 +1,35 @@
+/* Remove box shadow from ReactFlow controls */
+.react-flow__controls {
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.react-flow__controls-button {
+    background: white !important;
+    border: 1px solid #f7e9e9 !important;
+}
+
+/* Improve button styling */
+.react-flow__controls-button:hover {
+    background: #f8f8f8 !important;
+}
+
+/* Add a subtle border instead of shadow */
+.react-flow__controls {
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+
+/* Add these styles to your existing FlowStyles.css */
+
+.info-panel-container {
+    pointer-events: none;
+}
+
+.info-panel-draggable {
+    pointer-events: all;
+}
+
+.react-flow__panel.top-right {
+    z-index: 5;
+}
