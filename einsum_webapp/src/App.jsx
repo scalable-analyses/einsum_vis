@@ -38,7 +38,7 @@ function App() {
 
         <h1>Einsum Tree Visualizer</h1>
         <a
-          href="https://github.com/SeriousSeal/tensor_expressions_webapp"
+          href="https://github.com/scalable-analyses/einsum_vis"
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"

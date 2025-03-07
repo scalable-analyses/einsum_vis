@@ -126,7 +126,7 @@ std::string create_shareable_url(const std::string &expression, const std::strin
     std::string base64_expr = url_encode(base64_encode(compressed_expr));
     std::string base64_sizes = url_encode(base64_encode(compressed_sizes));
 
-    return "https://seriousseal.github.io/tensor_expressions_webapp/?e=" + base64_expr + "&s=" + base64_sizes;
+    return "https://scalable.uni-jena.de/opt/einsum-vis/?e=" + base64_expr + "&s=" + base64_sizes;
 }
 
 int main()
